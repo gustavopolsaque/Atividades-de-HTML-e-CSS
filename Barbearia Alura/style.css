@@ -83,7 +83,7 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background: url("bg.jpg");
+    background: url("imagens/bg.jpg");
     padding: 40px 0;
 }
 
@@ -100,23 +100,28 @@ form {
 form label, form legend {
     display: block;
     font-size: 20px;
-    margin: 0 0 10px;
+    margin: 0 5px 10px;
+}
+
+select {
+    margin: 0 5px;
 }
 
 .input_padrao {
     display: block;
-    margin: 0 0 20px;
+    margin: 0 5px 20px;
     padding: 10px 25px;
     width: 50%;
 }
 
 .checkbox {
-    margin: 20px 0;
+    margin: 20px 5px;
 }
 
 .enviar {
     width: 40%;
     padding: 15px 0;
+    margin: 0 5px;
     background: orange;
     color: white;
     font-weight: bold;
@@ -133,7 +138,7 @@ form label, form legend {
 }
 
 table {
-    margin: 20px 0 40px;
+    margin: 20px 5px 40px;
 }
 
 thead {
